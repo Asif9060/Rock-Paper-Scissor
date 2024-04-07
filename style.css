@@ -1,17 +1,25 @@
 body{
     overflow: hidden;
     font-family: "Jost", sans-serif;
+    background-color: darkslategray;
     
 }
 
 #rock,#paper,#scissor{
     width: 512px;
     height: 512px;
+    background: transparent;
+    border: none;
+}
+
+#rock,#paper,#scissor:hover{
+    cursor: pointer;
 }
 
 .rock,.paper,.scissor{
     width: 512px;
     height: 512px;
+    background: transparent;
 }
 
 .btn{
