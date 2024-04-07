@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    
+
+
+    <input style="display: none;" type="number" value="" id="guess">
+
+
+    <div class="btn">
+        <button id="rock" type="button" value="1"><img class="rock" src="Rock.png" alt="" srcset=""></button>
+        <button id="paper" type="button" value="2"><img class="paper" src="rock-paper-scissors-emoji-cartoon-005-512.png" alt="" srcset=""></button>
+        <button id="scissor" type="button" value="3"><img class="scissor" src="scissor.png" alt="" srcset=""></button>
+    </div>
+   
+
+    <h1 style="display: none;" id="d">It's a Draw!!</h1>
+    <h1 style="display: none;" id="w">You Did It</h1>
+    <h1 style="display: none;" id="l">Noob!</h1>
+    
+    <span class="score">
+        <span>
+            <h2 class="win">Win Count : <span id="wincount">0</span></h2>
+        </span>
+    
+        <span>
+            <h2 class="lose">Lost Count : <span id="losecount">0</span></h2>
+        </span>
+    
+        <span>
+            <h2 class="draw">Draw Count : <span id="drawcount">0</span></h2>
+        </span>
+    </span>
+
+
+    
+
+
+
+    <script src="Hello.js"></script>
+</body>
+</html>
